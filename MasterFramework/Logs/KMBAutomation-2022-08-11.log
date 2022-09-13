@@ -1,0 +1,59 @@
+2022-08-11 14:05:39 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-08-11 14:05:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-11 14:05:39 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:39 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBDeposits_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBDeposits Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBDeposits_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBDeposits Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBLeads_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBLeads Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBLeads_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBLeads Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_NTBDeposits_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - NTBDeposits Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:40 INFO  SetUp - Test Case_ETBCC_Successfully Started
+2022-08-11 14:05:40 ERROR SetUp - ETBCC Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:40 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_ETBDeposits_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - ETBDeposits Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_NTBLeads_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - NTBLeads Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_ETBLeads_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - ETBLeads Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_lead_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - lead Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_Case_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - Case Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-08-11 14:05:41 INFO  SetUp - Test Case_Case_Successfully Started
+2022-08-11 14:05:41 ERROR SetUp - Case Get Failed due to 
+C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\TestData\AutomationTestData.xlsx (The system cannot find the file specified)
+2022-08-11 14:05:41 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null

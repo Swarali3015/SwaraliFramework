@@ -1,0 +1,266 @@
+2022-08-29 16:12:45 INFO  Utils - [TestNG] Running:
+  E:\CBackUPFOlder\VrundaUpdatedMasterFramework\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-29 16:12:46 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 16:12:47 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:12:47 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 16:12:48 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:12:48 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-29 16:12:48 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:12:48 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-29 16:12:56 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 16:12:56 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-08-29 16:12:57 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_win32.zip
+2022-08-29 16:12:58 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-08-29 16:12:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 16:13:01 INFO  SetUp - Chrome Browser Launched..
+2022-08-29 16:13:07 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-29 16:13:07 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-29 16:13:07 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-29 16:13:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-29 16:13:08 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-29 16:13:08 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-29 16:13:33 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-29 16:13:35 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:13:36 INFO  CommonMethods - Sucessfully clicked on New_XPATH
+2022-08-29 16:13:41 INFO  CommonMethods - Sucessfully clicked on CASA_XPATH
+2022-08-29 16:13:41 INFO  CommonMethods - Data = Savings Account Sucessfully Selected from dropdown Product_XPATH
+2022-08-29 16:13:41 INFO  CommonMethods - Sucessfully clicked on Mobile_XPATH
+2022-08-29 16:13:42 INFO  CommonMethods - Data sucessfully entered on Mobile_XPATH = 9404613
+2022-08-29 16:13:42 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-29 16:13:42 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-29 16:13:43 INFO  CommonMethods - Data = MRS. Sucessfully Selected from dropdown Salutation_XPATH
+2022-08-29 16:13:43 INFO  CommonMethods - Sucessfully clicked on Name_XPATH
+2022-08-29 16:13:43 INFO  CommonMethods - Data sucessfully entered on Name_XPATH = Iga
+2022-08-29 16:13:44 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-29 16:13:44 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-29 16:13:44 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-29 16:13:45 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-29 16:13:45 INFO  CommonMethods - Sucessfully clicked on GrossSalary_XPATH
+2022-08-29 16:13:45 INFO  CommonMethods - Data sucessfully entered on GrossSalary_XPATH = 366
+2022-08-29 16:13:46 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-29 16:13:46 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-29 16:13:46 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-29 16:13:47 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-29 16:13:48 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-29 16:13:48 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-29 16:13:48 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-29 16:13:49 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-29 16:13:49 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-29 16:13:49 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-29 16:13:50 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-29 16:13:50 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:13:59 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:14:00 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:14:02 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:14:03 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:14:03 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:14:04 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:14:04 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:14:07 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:14:14 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:14:18 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:14:22 INFO  CommonMethods - Sucessfully clicked on QualificationMilestone_XPATH
+2022-08-29 16:14:23 INFO  CommonMethods - Sucessfully clicked on AppointmentFixedStatusCode_XPATH
+2022-08-29 16:14:24 INFO  CommonMethods - Sucessfully clicked on AppointmentDate_XPATH
+2022-08-29 16:14:25 INFO  CommonMethods - Data sucessfully entered on AppointmentDate_XPATH = 30/08/2022
+2022-08-29 16:14:25 INFO  CommonMethods - Sucessfully clicked on AppointmentTime_XPATH
+2022-08-29 16:14:25 INFO  CommonMethods - Data sucessfully entered on AppointmentTime_XPATH = 11:11 AM
+2022-08-29 16:14:26 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:14:31 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:14:32 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:14:34 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:14:35 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:14:35 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:14:36 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:14:36 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:14:39 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:14:47 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:14:51 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:14:52 INFO  CommonMethods - Sucessfully clicked on QualifiedStatusCode_XPATH
+2022-08-29 16:14:53 INFO  CommonMethods - Sucessfully clicked on NationalID_XPATH
+2022-08-29 16:14:54 INFO  CommonMethods - Data sucessfully entered on NationalID_XPATH = 1234567895
+2022-08-29 16:14:55 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:14:59 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:15:00 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:15:03 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:15:03 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:15:04 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:15:05 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:15:05 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:15:07 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:15:15 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:15:19 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:15:19 INFO  CommonMethods - Sucessfully clicked on FulfilmentMilestone_XPATH
+2022-08-29 16:15:20 INFO  CommonMethods - Sucessfully clicked on ApplicationStartedStatusCode_XPATH
+2022-08-29 16:15:21 INFO  CommonMethods - Sucessfully clicked on BackendReferenceNo_XPATH
+2022-08-29 16:15:22 INFO  CommonMethods - Data sucessfully entered on BackendReferenceNo_XPATH = 123456
+2022-08-29 16:15:23 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:15:26 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:15:27 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:15:30 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:15:30 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:15:31 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:15:32 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:15:32 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:15:34 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:15:42 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:15:45 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:15:47 INFO  CommonMethods - Sucessfully clicked on ClosureMilestone_XPATH
+2022-08-29 16:15:48 INFO  CommonMethods - Sucessfully clicked on Completed_XPATH
+2022-08-29 16:15:48 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:16:49 ERROR CommonMethods - Not Sucessfully clicked on LeadOwnerAssigned_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Lead Owner')] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-BREVGEI', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53493/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f8c142aac438adb9bab024366514bf7
+2022-08-29 16:17:49 ERROR SetUp - VerifyCASA Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[text()='DR. BM BM'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-BREVGEI', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53493/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f8c142aac438adb9bab024366514bf7
+2022-08-29 16:17:50 INFO  ScreenShot - ScreenShot captured VerifyCASA || Status :Fail
+2022-08-29 16:17:51 INFO  ExcelOperation - Write to excel with : Row=12 | Cell =3 | Data =Fail
+2022-08-29 16:17:51 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-29 16:17:51 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:51 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-29 16:17:52 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:52 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-29 16:17:52 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:52 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-29 16:17:52 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:52 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-29 16:17:53 INFO  SetUp - Test Case_VerifyJETBCASA_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:53 INFO  SetUp - Test Case_VerifyJETBLeadCC_Successfully Started
+2022-08-29 16:17:53 INFO  SetUp - Test Case_VerifyJETBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:17:53 INFO  SetUp - Test Case_VerifyJETBLeadLoan_Successfully Started
+2022-08-29 16:17:53 INFO  SetUp - Test Case_VerifyJETBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:23:39 INFO  Utils - [TestNG] Running:
+  E:\CBackUPFOlder\VrundaUpdatedMasterFramework\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-29 16:23:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 16:23:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:23:41 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 16:23:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:23:42 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-29 16:23:42 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:23:42 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-29 16:23:43 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 16:23:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 16:23:45 INFO  SetUp - Chrome Browser Launched..
+2022-08-29 16:23:47 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-29 16:23:48 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-29 16:23:48 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-29 16:23:48 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-29 16:23:49 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-29 16:23:49 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-29 16:24:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-29 16:24:16 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:24:16 INFO  CommonMethods - Sucessfully clicked on New_XPATH
+2022-08-29 16:24:22 INFO  CommonMethods - Sucessfully clicked on CASA_XPATH
+2022-08-29 16:24:23 INFO  CommonMethods - Data = Savings Account Sucessfully Selected from dropdown Product_XPATH
+2022-08-29 16:24:23 INFO  CommonMethods - Sucessfully clicked on Mobile_XPATH
+2022-08-29 16:24:23 INFO  CommonMethods - Data sucessfully entered on Mobile_XPATH = 94046913
+2022-08-29 16:24:24 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-29 16:24:24 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-29 16:24:25 INFO  CommonMethods - Data = MRS. Sucessfully Selected from dropdown Salutation_XPATH
+2022-08-29 16:24:25 INFO  CommonMethods - Sucessfully clicked on Name_XPATH
+2022-08-29 16:24:25 INFO  CommonMethods - Data sucessfully entered on Name_XPATH = Iga
+2022-08-29 16:24:26 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-29 16:24:26 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-29 16:24:26 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-29 16:24:27 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-29 16:24:27 INFO  CommonMethods - Sucessfully clicked on GrossSalary_XPATH
+2022-08-29 16:24:27 INFO  CommonMethods - Data sucessfully entered on GrossSalary_XPATH = 366
+2022-08-29 16:24:27 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-29 16:24:28 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-29 16:24:28 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-29 16:24:28 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-29 16:24:29 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-29 16:24:29 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-29 16:24:30 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-29 16:24:30 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-29 16:24:31 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-29 16:24:31 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-29 16:24:32 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-29 16:24:32 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:24:37 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:24:38 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:24:40 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:24:40 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:24:41 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:24:42 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:24:42 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:24:44 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:24:52 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:24:56 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:24:59 INFO  CommonMethods - Sucessfully clicked on QualificationMilestone_XPATH
+2022-08-29 16:25:00 INFO  CommonMethods - Sucessfully clicked on AppointmentFixedStatusCode_XPATH
+2022-08-29 16:25:01 INFO  CommonMethods - Sucessfully clicked on AppointmentDate_XPATH
+2022-08-29 16:25:02 INFO  CommonMethods - Data sucessfully entered on AppointmentDate_XPATH = 30/08/2022
+2022-08-29 16:25:02 INFO  CommonMethods - Sucessfully clicked on AppointmentTime_XPATH
+2022-08-29 16:25:03 INFO  CommonMethods - Data sucessfully entered on AppointmentTime_XPATH = 11:11 AM
+2022-08-29 16:25:03 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:25:06 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:25:06 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:25:09 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:25:09 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:25:10 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:25:11 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:25:11 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:25:13 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:25:20 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:25:24 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:25:25 INFO  CommonMethods - Sucessfully clicked on QualifiedStatusCode_XPATH
+2022-08-29 16:25:27 INFO  CommonMethods - Sucessfully clicked on NationalID_XPATH
+2022-08-29 16:25:27 INFO  CommonMethods - Data sucessfully entered on NationalID_XPATH = 1234567895
+2022-08-29 16:25:28 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:25:31 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:25:32 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:25:36 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:25:36 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:25:38 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:25:39 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:25:40 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:25:44 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:25:52 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:25:56 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:25:56 INFO  CommonMethods - Sucessfully clicked on FulfilmentMilestone_XPATH
+2022-08-29 16:25:57 INFO  CommonMethods - Sucessfully clicked on ApplicationStartedStatusCode_XPATH
+2022-08-29 16:25:58 INFO  CommonMethods - Sucessfully clicked on BackendReferenceNo_XPATH
+2022-08-29 16:25:59 INFO  CommonMethods - Data sucessfully entered on BackendReferenceNo_XPATH = 123456
+2022-08-29 16:26:00 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:26:02 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:26:03 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-29 16:26:06 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:26:06 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-29 16:26:07 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-29 16:26:08 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-29 16:26:08 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-29 16:26:10 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = Iga
+2022-08-29 16:26:18 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-29 16:26:22 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-29 16:26:23 INFO  CommonMethods - Sucessfully clicked on ClosureMilestone_XPATH
+2022-08-29 16:26:24 INFO  CommonMethods - Sucessfully clicked on TerminatedStatus_XPATH
+2022-08-29 16:26:24 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-29 16:26:26 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-29 16:26:27 INFO  CommonMethods - Sucessfully clicked on LeadDetailsPageToggleButton_XPATH
+2022-08-29 16:26:27 INFO  SetUp - Test Case_VerifyCASA_Successfully Passed
+2022-08-29 16:26:29 INFO  ExcelOperation - Write to excel with : Row=12 | Cell =3 | Data =Pass
+2022-08-29 16:26:29 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-29 16:26:30 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:30 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-29 16:26:31 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:31 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-29 16:26:32 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:32 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-29 16:26:32 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:32 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-29 16:26:33 INFO  SetUp - Test Case_VerifyJETBCASA_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:33 INFO  SetUp - Test Case_VerifyJETBLeadCC_Successfully Started
+2022-08-29 16:26:34 INFO  SetUp - Test Case_VerifyJETBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:26:34 INFO  SetUp - Test Case_VerifyJETBLeadLoan_Successfully Started
+2022-08-29 16:26:35 INFO  SetUp - Test Case_VerifyJETBLeadLoan_get Skipped as its Runmode is 'NO' 

@@ -1,0 +1,127 @@
+2022-07-11 17:17:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-11 17:17:41 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-11 17:17:44 INFO  SetUp - Browser = Chrome
+2022-07-11 17:17:58 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-11 17:17:58 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-07-11 17:17:58 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_win32.zip
+2022-07-11 17:18:00 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-07-11 17:18:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-11 17:18:29 INFO  SetUp - Chrome Browser Launched..
+2022-07-11 17:18:35 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-07-11 17:18:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-11 17:18:38 INFO  CommonMethods - Data Sucessfully entered on User Name = admin
+2022-07-11 17:18:39 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-11 17:18:45 INFO  LoginPage - Sucessfully logout..
+2022-07-11 17:18:45 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-07-11 17:18:45 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-07-11 17:18:46 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:47:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\AppData\Local\Temp\testng-eclipse-227851062\testng-customsuite.xml
+
+2022-07-11 17:47:59 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2022-07-11 17:48:04 INFO  SetUp - Browser = Chrome
+2022-07-11 17:48:05 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-11 17:48:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-11 17:48:20 INFO  SetUp - Chrome Browser Launched..
+2022-07-11 17:48:23 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-07-11 17:48:25 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7d7ceca8: 0 ms
+2022-07-11 17:48:25 INFO  Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4d69d288: 253 ms
+2022-07-11 17:48:26 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3030836d: 561 ms
+2022-07-11 17:48:26 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@26fadd98: 103 ms
+2022-07-11 17:48:26 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@25f0c5e7: 52 ms
+2022-07-11 17:48:26 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@63917fe1: 33 ms
+2022-07-11 17:48:26 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2b7facc7: 13 ms
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-07-11 17:48:55 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\AppData\Local\Temp\testng-eclipse-1868713176\testng-customsuite.xml
+
+2022-07-11 17:48:55 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2022-07-11 17:49:08 INFO  SetUp - Browser = Chrome
+2022-07-11 17:49:22 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-11 17:49:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-11 17:50:00 INFO  SetUp - Chrome Browser Launched..
+2022-07-11 17:50:13 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-07-11 17:50:20 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7d7ceca8: 1 ms
+2022-07-11 17:50:21 INFO  Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4d69d288: 355 ms
+2022-07-11 17:50:23 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3030836d: 1778 ms
+2022-07-11 17:50:23 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@26fadd98: 32 ms
+2022-07-11 17:50:23 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@25f0c5e7: 54 ms
+2022-07-11 17:50:23 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@63917fe1: 415 ms
+2022-07-11 17:50:23 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2b7facc7: 135 ms
+2022-07-11 17:52:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-11 17:52:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-11 17:52:52 INFO  SetUp - Browser = Chrome
+2022-07-11 17:52:53 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-11 17:52:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-11 17:53:00 INFO  SetUp - Chrome Browser Launched..
+2022-07-11 17:53:02 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-07-11 17:53:13 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-11 17:53:15 INFO  CommonMethods - Data Sucessfully entered on User Name = admin
+2022-07-11 17:53:17 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-11 17:53:31 INFO  LoginPage - Sucessfully logout..
+2022-07-11 17:53:31 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-07-11 17:53:32 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-07-11 17:53:33 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass

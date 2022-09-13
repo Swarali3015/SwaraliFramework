@@ -1,0 +1,696 @@
+2022-08-23 11:37:35 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 11:37:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:37:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:37 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:37:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:37 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 11:37:38 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:38 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 11:37:38 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:38 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 11:37:39 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:39 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 11:37:39 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:39 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 11:37:39 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:37:39 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 11:37:46 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 11:37:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 11:37:57 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 11:38:08 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 11:38:09 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 11:38:09 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 11:38:09 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 11:38:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 11:38:09 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 11:38:43 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 11:38:44 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 11:38:48 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 11:38:49 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 11:38:49 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 11:38:50 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 11:40:11 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 11:40:11 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 11:40:14 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 11:40:20 INFO  CommonMethods - Data = E-Flexi Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 11:40:20 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 11:40:21 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 11:40:21 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 11:40:21 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 11:40:21 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 11:40:21 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 11:40:22 INFO  CommonMethods - Sucessfully clicked on Tenor_XPATH
+2022-08-23 11:40:22 INFO  CommonMethods - Data sucessfully entered on Tenor_XPATH = 3
+2022-08-23 11:40:22 ERROR SetUp - VerifyJETBLeadDeposits Get Failed due to 
+Cannot invoke "com.crm.pages.CRMLogin.JNTBLeadCC.NTBLeadCreationLowerPart(String)" because "this.CC" is null
+2022-08-23 11:40:22 INFO  ScreenShot - ScreenShot captured VerifyJETBLeadDeposits || Status :Fail
+2022-08-23 11:40:23 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =3 | Data =Fail
+2022-08-23 11:43:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 11:43:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:43:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:37 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:43:38 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:38 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 11:43:38 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:38 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 11:43:38 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:38 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 11:43:39 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:39 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 11:43:39 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:39 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 11:43:39 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:43:39 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 11:43:40 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 11:43:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 11:43:46 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 11:43:48 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 11:43:49 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 11:43:49 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 11:43:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 11:43:49 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 11:43:49 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 11:44:36 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 11:44:37 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 11:44:40 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 11:44:41 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 11:44:41 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 11:44:42 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 11:45:16 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 11:45:16 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 11:45:19 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 11:45:30 INFO  CommonMethods - Data = E-Flexi Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 11:45:30 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 11:45:30 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 11:45:31 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 11:45:31 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 11:45:31 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 11:45:31 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 11:45:31 INFO  CommonMethods - Sucessfully clicked on Tenor_XPATH
+2022-08-23 11:45:32 INFO  CommonMethods - Data sucessfully entered on Tenor_XPATH = 3
+2022-08-23 11:45:32 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-23 11:45:32 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-23 11:45:32 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-23 11:45:32 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-23 11:45:34 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-23 11:45:34 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-23 11:45:34 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-23 11:45:35 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-23 11:45:35 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-23 11:45:35 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-23 11:45:37 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-23 11:45:37 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 11:46:04 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 11:46:05 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 11:46:09 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:10 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:10 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 11:46:11 ERROR CommonMethods - Not able to select from dropdown SearchBy_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:11 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 11:46:11 ERROR CommonMethods - Data Not Sucessfully entered on SearchNameInput_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed4953337eed35edff29b6ee09a7e4a9, clearElement {id=0beebe6a-ca0a-4b39-8375-0609c6ebeee6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55637/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ed4953337eed35edff29b6ee09a7e4a9)] -> xpath: //input[@class='textbox field__item']]
+Session ID: ed4953337eed35edff29b6ee09a7e4a9
+2022-08-23 11:46:19 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 11:46:23 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 11:46:26 INFO  CommonMethods - Sucessfully clicked on QualificationMilestone_XPATH
+2022-08-23 11:46:27 INFO  CommonMethods - Sucessfully clicked on AppointmentFixedStatusCode_XPATH
+2022-08-23 11:46:28 INFO  CommonMethods - Sucessfully clicked on AppointmentDate_XPATH
+2022-08-23 11:46:29 INFO  CommonMethods - Data sucessfully entered on AppointmentDate_XPATH = 30/08/2022
+2022-08-23 11:46:29 INFO  CommonMethods - Sucessfully clicked on AppointmentTime_XPATH
+2022-08-23 11:46:29 INFO  CommonMethods - Data sucessfully entered on AppointmentTime_XPATH = 11:11 AM
+2022-08-23 11:46:29 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 11:46:38 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 11:46:39 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 11:46:41 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:41 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:42 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 11:46:42 ERROR CommonMethods - Not able to select from dropdown SearchBy_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:46:42 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 11:46:42 ERROR CommonMethods - Data Not Sucessfully entered on SearchNameInput_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed4953337eed35edff29b6ee09a7e4a9, clearElement {id=1ddd0297-7b22-403a-9fc1-e8fdb4837833}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55637/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ed4953337eed35edff29b6ee09a7e4a9)] -> xpath: //input[@class='textbox field__item']]
+Session ID: ed4953337eed35edff29b6ee09a7e4a9
+2022-08-23 11:47:21 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 11:47:25 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 11:47:26 INFO  CommonMethods - Sucessfully clicked on QualifiedStatusCode_XPATH
+2022-08-23 11:47:27 INFO  CommonMethods - Sucessfully clicked on NationalID_XPATH
+2022-08-23 11:47:27 ERROR CommonMethods - Data Not Sucessfully entered on NationalID_XPATH due to :Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:47:29 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 11:47:34 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 11:47:35 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 11:47:40 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:47:40 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:47:41 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 11:47:41 ERROR CommonMethods - Not able to select from dropdown SearchBy_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:47:41 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 11:47:41 ERROR CommonMethods - Data Not Sucessfully entered on SearchNameInput_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed4953337eed35edff29b6ee09a7e4a9, clearElement {id=b076d860-d7ba-4b1a-996e-11096790f17c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55637/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ed4953337eed35edff29b6ee09a7e4a9)] -> xpath: //input[@class='textbox field__item']]
+Session ID: ed4953337eed35edff29b6ee09a7e4a9
+2022-08-23 11:47:49 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 11:47:54 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 11:47:55 INFO  CommonMethods - Sucessfully clicked on FulfilmentMilestone_XPATH
+2022-08-23 11:47:56 INFO  CommonMethods - Sucessfully clicked on ApplicationStartedStatusCode_XPATH
+2022-08-23 11:47:58 INFO  CommonMethods - Sucessfully clicked on BackendReferenceNo_XPATH
+2022-08-23 11:47:58 INFO  CommonMethods - Data sucessfully entered on BackendReferenceNo_XPATH = 1234567
+2022-08-23 11:48:00 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 11:48:04 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 11:48:06 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 11:48:09 ERROR CommonMethods - Not able to select from dropdown LeadView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:48:09 ERROR CommonMethods - Not able to select from dropdown SelectedView_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:48:10 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 11:48:10 ERROR CommonMethods - Not able to select from dropdown SearchBy_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 11:48:10 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 11:48:10 ERROR CommonMethods - Data Not Sucessfully entered on SearchNameInput_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed4953337eed35edff29b6ee09a7e4a9, clearElement {id=baeb2493-7ac8-428d-a268-b417b8d6d747}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55637/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ed4953337eed35edff29b6ee09a7e4a9)] -> xpath: //input[@class='textbox field__item']]
+Session ID: ed4953337eed35edff29b6ee09a7e4a9
+2022-08-23 11:48:17 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 11:48:21 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 11:48:22 INFO  CommonMethods - Sucessfully clicked on ClosureMilestone_XPATH
+2022-08-23 11:48:23 INFO  CommonMethods - Sucessfully clicked on LeadRejected_XPATH
+2022-08-23 11:49:24 ERROR SetUp - VerifyJETBLeadDeposits Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //a[@data-autoid='btn_toggle'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55637/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed4953337eed35edff29b6ee09a7e4a9
+2022-08-23 11:49:24 INFO  ScreenShot - ScreenShot captured VerifyJETBLeadDeposits || Status :Fail
+2022-08-23 11:49:26 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =3 | Data =Fail
+2022-08-23 11:58:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 11:58:20 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:58:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:22 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 11:58:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:22 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 11:58:23 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:23 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 11:58:23 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:23 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 11:58:23 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:23 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 11:58:24 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:24 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 11:58:24 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 11:58:24 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 11:58:25 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 11:58:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 11:58:34 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 11:58:50 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 11:58:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 11:59:50 ERROR CommonMethods - Not Sucessfully clicked on Username_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtName'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551dde043c5125165b02847eecd4db91
+2022-08-23 11:59:50 ERROR CommonMethods - Data Not Sucessfully entered on Username_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtName']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [551dde043c5125165b02847eecd4db91, findElement {using=xpath, value=//input[@id='TxtName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551dde043c5125165b02847eecd4db91
+2022-08-23 12:00:51 ERROR CommonMethods - Not Sucessfully clicked on password_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtPassword'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551dde043c5125165b02847eecd4db91
+2022-08-23 12:00:51 ERROR CommonMethods - Data Not Sucessfully entered on password_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtPassword']"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [551dde043c5125165b02847eecd4db91, findElement {using=xpath, value=//input[@id='TxtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551dde043c5125165b02847eecd4db91
+2022-08-23 12:01:51 ERROR SetUp - VerifyJETBLeadDeposits Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='command'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56137/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551dde043c5125165b02847eecd4db91
+2022-08-23 12:01:51 INFO  ScreenShot - ScreenShot captured VerifyJETBLeadDeposits || Status :Fail
+2022-08-23 12:01:53 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =3 | Data =Fail
+2022-08-23 12:02:34 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 12:02:34 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 12:02:35 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:35 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 12:02:36 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:36 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 12:02:36 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:36 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 12:02:36 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:37 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 12:02:37 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:37 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 12:02:37 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:37 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 12:02:38 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 12:02:38 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 12:02:38 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 12:02:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 12:02:46 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 12:02:49 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 12:02:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 12:02:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 12:02:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 12:02:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 12:02:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 12:03:05 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 12:03:05 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 12:03:08 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 12:03:08 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 12:03:08 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 12:03:10 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 12:03:46 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 12:03:46 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 12:03:49 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 12:03:54 INFO  CommonMethods - Data = Fixed Deposit – DAV Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 12:03:54 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 12:03:54 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 12:03:54 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 12:03:54 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 12:03:55 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 12:03:55 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 12:03:55 INFO  CommonMethods - Sucessfully clicked on Tenor_XPATH
+2022-08-23 12:03:55 INFO  CommonMethods - Data sucessfully entered on Tenor_XPATH = 3
+2022-08-23 12:03:55 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-23 12:03:56 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-23 12:03:56 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-23 12:03:56 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-23 12:03:57 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-23 12:03:57 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-23 12:03:57 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-23 12:03:58 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-23 12:03:58 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-23 12:03:58 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-23 12:03:59 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-23 12:03:59 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 12:04:08 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 12:04:09 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 12:04:11 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 12:04:12 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 12:04:13 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 12:04:14 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 12:04:14 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 12:04:21 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 12:04:29 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 12:04:33 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 12:04:36 INFO  CommonMethods - Sucessfully clicked on QualificationMilestone_XPATH
+2022-08-23 12:04:37 INFO  CommonMethods - Sucessfully clicked on AppointmentFixedStatusCode_XPATH
+2022-08-23 12:04:39 INFO  CommonMethods - Sucessfully clicked on AppointmentDate_XPATH
+2022-08-23 12:04:39 INFO  CommonMethods - Data sucessfully entered on AppointmentDate_XPATH = 30/08/2022
+2022-08-23 12:04:39 INFO  CommonMethods - Sucessfully clicked on AppointmentTime_XPATH
+2022-08-23 12:04:40 INFO  CommonMethods - Data sucessfully entered on AppointmentTime_XPATH = 11:11 AM
+2022-08-23 12:04:40 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 12:04:45 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 12:04:45 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 12:04:49 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 12:04:49 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 12:04:50 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 12:04:51 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 12:04:52 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 12:05:00 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 12:05:13 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 12:05:16 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 12:05:18 INFO  CommonMethods - Sucessfully clicked on QualifiedStatusCode_XPATH
+2022-08-23 12:05:19 INFO  CommonMethods - Sucessfully clicked on NationalID_XPATH
+2022-08-23 12:05:19 ERROR CommonMethods - Data Not Sucessfully entered on NationalID_XPATH due to :Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 12:05:20 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 12:05:24 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 12:05:24 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 12:05:27 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 12:05:27 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 12:05:28 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 12:05:29 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 12:05:29 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 12:05:36 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 12:05:43 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 12:05:47 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 12:05:47 INFO  CommonMethods - Sucessfully clicked on FulfilmentMilestone_XPATH
+2022-08-23 12:05:48 INFO  CommonMethods - Sucessfully clicked on ApplicationStartedStatusCode_XPATH
+2022-08-23 12:05:49 INFO  CommonMethods - Sucessfully clicked on BackendReferenceNo_XPATH
+2022-08-23 12:05:50 INFO  CommonMethods - Data sucessfully entered on BackendReferenceNo_XPATH = 1234567
+2022-08-23 12:05:52 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 12:05:54 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 12:05:55 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 12:06:15 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 12:06:15 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 12:06:16 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 12:06:16 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 12:06:16 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 12:06:23 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 12:06:30 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 12:06:34 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 12:06:35 INFO  CommonMethods - Sucessfully clicked on ClosureMilestone_XPATH
+2022-08-23 12:06:36 INFO  CommonMethods - Sucessfully clicked on LeadRejected_XPATH
+2022-08-23 12:06:36 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 12:06:43 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 12:06:45 INFO  CommonMethods - Sucessfully clicked on LeadDetailsPageToggleButton_XPATH
+2022-08-23 12:06:45 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Passed
+2022-08-23 12:06:46 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =3 | Data =Pass
+2022-08-23 16:23:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 16:23:52 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:23:53 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:53 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:23:54 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:54 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 16:23:54 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:54 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 16:23:55 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:55 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 16:23:55 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:55 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 16:23:55 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:56 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 16:23:56 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:56 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 16:23:57 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:23:57 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-23 16:24:01 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 16:24:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 16:24:16 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 16:24:17 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 16:25:17 ERROR SetUp - VerifyJETBCASA Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-link'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4480f55cdaa56555f0f00dcc738f9613
+2022-08-23 16:25:18 INFO  ScreenShot - ScreenShot captured VerifyJETBCASA || Status :Fail
+2022-08-23 16:25:19 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =3 | Data =Fail
+2022-08-23 16:26:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 16:26:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:26:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:41 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:26:42 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:42 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 16:26:42 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:42 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 16:26:42 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:42 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 16:26:43 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:43 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 16:26:43 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:43 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 16:26:44 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:44 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 16:26:44 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:26:44 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-23 16:26:45 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 16:26:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 16:26:51 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 16:26:53 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 16:26:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 16:26:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 16:26:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 16:26:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 16:26:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 16:27:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 16:27:04 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 16:27:08 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 16:27:08 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 16:27:08 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 16:27:09 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 16:27:41 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 16:27:41 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 16:27:45 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 16:27:54 INFO  CommonMethods - Data = Current - Special Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 16:27:54 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 16:27:54 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 16:27:54 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 16:27:54 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 16:27:54 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 16:27:55 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 16:27:55 ERROR SetUp - VerifyJETBCASA Get Failed due to 
+Cannot invoke "com.crm.pages.CRMLogin.JNTBLeadBanca.GrossSalary(String)" because "this.NTBBanca" is null
+2022-08-23 16:27:55 INFO  ScreenShot - ScreenShot captured VerifyJETBCASA || Status :Fail
+2022-08-23 16:27:56 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =3 | Data =Fail
+2022-08-23 16:31:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 16:31:23 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:31:24 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:25 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:31:25 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:25 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 16:31:25 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:25 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 16:31:26 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:26 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 16:31:26 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:26 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 16:31:26 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:26 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 16:31:27 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:27 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 16:31:27 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:31:27 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-23 16:31:28 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 16:31:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 16:31:34 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 16:31:35 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 16:31:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 16:31:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 16:31:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 16:31:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 16:31:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 16:31:42 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 16:31:42 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 16:31:45 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 16:31:45 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 16:31:45 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 16:31:46 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 16:32:19 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 16:32:19 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 16:32:22 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 16:32:28 INFO  CommonMethods - Data = Current - Special Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 16:32:28 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 16:32:28 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 16:32:28 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 16:32:29 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 16:32:29 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 16:32:29 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 16:32:29 ERROR SetUp - VerifyJETBCASA Get Failed due to 
+Cannot invoke "com.crm.pages.CRMLogin.JNTBLeadCC.NTBLeadCreationLowerPart(String)" because "this.CC" is null
+2022-08-23 16:32:29 INFO  ScreenShot - ScreenShot captured VerifyJETBCASA || Status :Fail
+2022-08-23 16:32:31 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =3 | Data =Fail
+2022-08-23 16:46:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 16:46:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:46:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 16:46:42 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:42 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 16:46:42 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:42 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 16:46:43 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:43 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 16:46:43 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:43 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 16:46:43 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:44 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 16:46:44 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:44 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 16:46:44 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 16:46:44 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-23 16:46:45 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 16:46:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 16:46:54 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 16:46:55 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 16:46:55 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 16:46:56 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 16:46:56 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 16:46:56 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 16:46:56 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 16:47:02 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 16:47:02 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 16:47:05 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 16:47:05 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 16:47:05 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 16:47:07 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 16:47:47 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 16:47:48 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 16:47:51 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 16:47:57 INFO  CommonMethods - Data = Current - Special Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 16:47:57 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 16:47:57 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 16:47:57 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 16:47:58 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 16:47:58 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 16:47:58 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 16:47:58 INFO  CommonMethods - Sucessfully clicked on GrossSalary_XPATH
+2022-08-23 16:47:58 INFO  CommonMethods - Data sucessfully entered on GrossSalary_XPATH = 366
+2022-08-23 16:47:59 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-23 16:47:59 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-23 16:47:59 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-23 16:47:59 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-23 16:48:01 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-23 16:48:01 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-23 16:48:01 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-23 16:48:02 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-23 16:48:02 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-23 16:48:02 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-23 16:48:03 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-23 16:48:04 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 16:49:06 ERROR CommonMethods - Not Sucessfully clicked on LeadOwnerAssigned_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //img[@alt='Lead Owner'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61589/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1139c57af4afb0810d93e6e730bb16f7
+2022-08-23 16:50:06 ERROR SetUp - VerifyJETBCASA Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[text()='DR. BM BM'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '10.62.158.250', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61589/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1139c57af4afb0810d93e6e730bb16f7
+2022-08-23 16:50:06 INFO  ScreenShot - ScreenShot captured VerifyJETBCASA || Status :Fail
+2022-08-23 16:50:08 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =3 | Data =Fail
+2022-08-23 17:43:22 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\VrundaUpdatedMasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 17:43:22 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 17:43:24 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:24 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-23 17:43:25 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:25 INFO  SetUp - Test Case_VerifyDeposits_Successfully Started
+2022-08-23 17:43:25 INFO  SetUp - Test Case_VerifyDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:25 INFO  SetUp - Test Case_VerifyCASA_Successfully Started
+2022-08-23 17:43:26 INFO  SetUp - Test Case_VerifyCASA_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:26 INFO  SetUp - Test Case_JNTBLeadCC_Successfully Started
+2022-08-23 17:43:27 INFO  SetUp - Test Case_JNTBLeadCC_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:27 INFO  SetUp - Test Case_JNTBLeadLoan_Successfully Started
+2022-08-23 17:43:28 INFO  SetUp - Test Case_JNTBLeadLoan_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:28 INFO  SetUp - Test Case_JETBLeadBanca_Successfully Started
+2022-08-23 17:43:28 INFO  SetUp - Test Case_JETBLeadBanca_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:29 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_Successfully Started
+2022-08-23 17:43:29 INFO  SetUp - Test Case_VerifyJETBLeadDeposits_get Skipped as its Runmode is 'NO' 
+2022-08-23 17:43:30 INFO  SetUp - Test Case_VerifyJETBCASA_Successfully Started
+2022-08-23 17:43:33 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 17:43:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 17:43:44 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 17:43:45 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-08-23 17:43:49 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-23 17:43:49 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 17:43:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = BM
+2022-08-23 17:43:49 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 17:43:49 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 17:43:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-23 17:43:52 INFO  CommonMethods - Sucessfully clicked on QuickLink_XPATH
+2022-08-23 17:44:01 INFO  CommonMethods - Sucessfully clicked on LeadSearch_XPATH
+2022-08-23 17:44:01 INFO  CommonMethods - Sucessfully clicked on CustomerID_XPATH
+2022-08-23 17:44:02 INFO  CommonMethods - Data sucessfully entered on CustomerID_XPATH = D007
+2022-08-23 17:44:03 INFO  CommonMethods - Sucessfully clicked on FetchButton_XPATH
+2022-08-23 17:44:31 INFO  CommonMethods - Sucessfully clicked on Widget_XPATH
+2022-08-23 17:44:31 INFO  CommonMethods - Sucessfully clicked on Leads_XPATH
+2022-08-23 17:44:34 INFO  CommonMethods - Sucessfully clicked on Threedoticon_XPATH
+2022-08-23 17:44:39 INFO  CommonMethods - Data = Saving - Against Resident Permit Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 17:44:39 INFO  CommonMethods - Sucessfully clicked on LeadAmount_XPATH
+2022-08-23 17:44:39 INFO  CommonMethods - Data sucessfully entered on LeadAmount_XPATH = 223
+2022-08-23 17:44:39 INFO  CommonMethods - Data = Hot Sucessfully Selected from dropdown LeadRating_XPATH
+2022-08-23 17:44:40 INFO  CommonMethods - Data = Social Media Sucessfully Selected from dropdown LeadSource_XPATH
+2022-08-23 17:44:40 INFO  CommonMethods - Sucessfully clicked on Income_XPATH
+2022-08-23 17:44:40 INFO  CommonMethods - Data sucessfully entered on Income_XPATH = 450
+2022-08-23 17:44:40 INFO  CommonMethods - Sucessfully clicked on GrossSalary_XPATH
+2022-08-23 17:44:41 INFO  CommonMethods - Data sucessfully entered on GrossSalary_XPATH = 366
+2022-08-23 17:44:41 INFO  CommonMethods - Sucessfully clicked on Comments_XPATH
+2022-08-23 17:44:42 INFO  CommonMethods - Data sucessfully entered on Comments_XPATH = Loving Automation
+2022-08-23 17:44:42 INFO  CommonMethods - Sucessfully clicked on City_XPATH
+2022-08-23 17:44:42 INFO  CommonMethods - Data sucessfully entered on City_XPATH = Ajloun
+2022-08-23 17:44:43 INFO  CommonMethods - Sucessfully clicked on SelectedCity_XPATH
+2022-08-23 17:44:43 INFO  CommonMethods - Sucessfully clicked on Area_XPATH
+2022-08-23 17:44:43 INFO  CommonMethods - Data sucessfully entered on Area_XPATH = Ajloun
+2022-08-23 17:44:44 INFO  CommonMethods - Sucessfully clicked on SelectedArea_XPATH
+2022-08-23 17:44:44 INFO  CommonMethods - Sucessfully clicked on PreferredBranch_XPATH
+2022-08-23 17:44:44 INFO  CommonMethods - Data sucessfully entered on PreferredBranch_XPATH = Ajloun
+2022-08-23 17:44:45 INFO  CommonMethods - Sucessfully clicked on SelectedPreferredBranch_XPATH
+2022-08-23 17:44:45 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 17:44:53 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 17:44:54 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 17:44:58 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 17:44:58 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 17:44:59 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 17:45:01 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 17:45:01 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 17:45:10 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 17:45:18 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 17:45:21 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 17:45:25 INFO  CommonMethods - Sucessfully clicked on QualificationMilestone_XPATH
+2022-08-23 17:45:26 INFO  CommonMethods - Sucessfully clicked on AppointmentFixedStatusCode_XPATH
+2022-08-23 17:45:27 INFO  CommonMethods - Sucessfully clicked on AppointmentDate_XPATH
+2022-08-23 17:45:27 INFO  CommonMethods - Data sucessfully entered on AppointmentDate_XPATH = 30/08/2022
+2022-08-23 17:45:28 INFO  CommonMethods - Sucessfully clicked on AppointmentTime_XPATH
+2022-08-23 17:45:28 INFO  CommonMethods - Data sucessfully entered on AppointmentTime_XPATH = 11:11 AM
+2022-08-23 17:45:28 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 17:45:32 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 17:45:32 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 17:45:35 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 17:45:36 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 17:45:37 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 17:45:38 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 17:45:39 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 17:45:47 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 17:45:54 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 17:45:58 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 17:45:59 INFO  CommonMethods - Sucessfully clicked on QualifiedStatusCode_XPATH
+2022-08-23 17:46:00 INFO  CommonMethods - Sucessfully clicked on NationalID_XPATH
+2022-08-23 17:46:00 ERROR CommonMethods - Data Not Sucessfully entered on NationalID_XPATH due to :Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-08-23 17:46:01 INFO  CommonMethods - Sucessfully clicked on SaveAndProceedButton_XPATH
+2022-08-23 17:46:04 INFO  CommonMethods - Sucessfully clicked on LeadOwnerAssigned_XPATH
+2022-08-23 17:46:05 INFO  CommonMethods - Sucessfully clicked on LeadsClick_XPATH
+2022-08-23 17:46:08 INFO  CommonMethods - Data = Lead Sucessfully Selected from dropdown LeadView_XPATH
+2022-08-23 17:46:08 INFO  CommonMethods - Data = Created by Me Sucessfully Selected from dropdown SelectedView_XPATH
+2022-08-23 17:46:09 INFO  CommonMethods - Sucessfully clicked on LeadSearchIcon_XPATH
+2022-08-23 17:46:11 INFO  CommonMethods - Data = Name Sucessfully Selected from dropdown SearchBy_XPATH
+2022-08-23 17:46:11 INFO  CommonMethods - Sucessfully clicked on SearchNameInput_XPATH
+2022-08-23 17:46:18 INFO  CommonMethods - Data sucessfully entered on SearchNameInput_XPATH = AWNI ABDULMAJEED MOHAMMAD ALFAORI
+2022-08-23 17:46:26 INFO  CommonMethods - Sucessfully clicked on SearchedLead_XPATH
+2022-08-23 17:46:29 INFO  CommonMethods - Sucessfully clicked on EditButton_XPATH
+2022-08-23 17:46:29 ERROR SetUp - VerifyJETBCASA Get Failed due to 
+Cannot invoke "com.crm.pages.CRMLogin.JETBLeadDeposits.ApplicationStarted(String)" because "this.depo" is null
+2022-08-23 17:46:30 INFO  ScreenShot - ScreenShot captured VerifyJETBCASA || Status :Fail
+2022-08-23 17:46:31 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =3 | Data =Fail

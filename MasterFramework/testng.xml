@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="CommonUtility.TestListeners" />
+	</listeners>
+  
+  
+  <test name="Test To Verify CRM Login">
+    <classes>
+      <class name="TestScript.TC01VerifyCRMLogin"/>
+    </classes>
+  </test>  <!-- Test --> 
+  
+ 
+  
+    <test name="Test to VerifyNTBLeadCreationBankassuranceJordan">
+    <classes>
+      <class name="TestScript.TC02VerifyNTBLeadCreationBankassuranceJordan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test to VerifyNTBLeadCreationDepositsJordan">
+    <classes>
+      <class name="TestScript.TC03VerifyNTBLeadCreationDepositsJordan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Test to VerifyNTBCASALead">
+    <classes>
+      <class name="TestScript.TC04VerifyNTBCASALead"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Test to VerifyNTBCCLead">
+    <classes>
+      <class name="TestScript.TC05VerifyNTBCCLead"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test name="Test to VerifyNTBLoansLeadJordan">
+    <classes>
+      <class name="TestScript.TC06VerifyNTBLoansLeadJordan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Test to VerifyETBCASALeadJordan">
+    <classes>
+      <class name="TestScript.TC07VerifyETBCASALeadJordan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+ <test name="Test to VeridyETBCCLeadJordan">
+    <classes>
+      <class name="TestScript.TC08VeridyETBCCLeadJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+   <test name="Test to VerifyETBDepositsLeadJordan">
+    <classes>
+      <class name="TestScript.TC09VerifyETBDepositsLeadJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+     <test name="Test to VerifyETBHLJordan">
+    <classes>
+      <class name="TestScript.TC10VerifyETBHLJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+  <test name="Test to VerifyETBBankassuranceLeadJordan">
+    <classes>
+      <class name="TestScript.TC11VerifyETBBankassuranceLeadJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+    <test name="Test to VerifyLeadDedupeCreation">
+    <classes>
+      <class name="TestScript.TC12VerifyLeadDedupeCreation"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+  
+      <test name="Test to VerifyNTBCaseNewJordan">
+    <classes>
+      <class name="TestScript.TC13VerifyNTBCaseNewJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+  <test name="Test to VerifyETBCaseJordan">
+    <classes>
+      <class name="TestScript.TC15VerifyETBCaseJordan"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->
+
+

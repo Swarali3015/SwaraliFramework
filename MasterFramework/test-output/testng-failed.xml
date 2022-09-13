@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="CommonUtility.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test To Verify CRM Login(failed)">
+    <classes>
+      <class name="TestScript.TC01VerifyCRMLogin">
+        <methods>
+          <include name="VerifyCRMLogin"/>
+        </methods>
+      </class> <!-- TestScript.TC01VerifyCRMLogin -->
+    </classes>
+  </test> <!-- Test To Verify CRM Login(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBLeadCreationBankassuranceJordan(failed)">
+    <classes>
+      <class name="TestScript.TC02VerifyNTBLeadCreationBankassuranceJordan">
+        <methods>
+          <include name="NTBBankassuranceJordan"/>
+        </methods>
+      </class> <!-- TestScript.TC02VerifyNTBLeadCreationBankassuranceJordan -->
+    </classes>
+  </test> <!-- Test to VerifyNTBLeadCreationBankassuranceJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBLeadCreationDepositsJordan(failed)">
+    <classes>
+      <class name="TestScript.TC03VerifyNTBLeadCreationDepositsJordan">
+        <methods>
+          <include name="NTBDeposits"/>
+        </methods>
+      </class> <!-- TestScript.TC03VerifyNTBLeadCreationDepositsJordan -->
+    </classes>
+  </test> <!-- Test to VerifyNTBLeadCreationDepositsJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBCASALead(failed)">
+    <classes>
+      <class name="TestScript.TC04VerifyNTBCASALead">
+        <methods>
+          <include name="NTBDeposits"/>
+        </methods>
+      </class> <!-- TestScript.TC04VerifyNTBCASALead -->
+    </classes>
+  </test> <!-- Test to VerifyNTBCASALead(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBCCLead(failed)">
+    <classes>
+      <class name="TestScript.TC05VerifyNTBCCLead">
+        <methods>
+          <include name="NTBLeads"/>
+        </methods>
+      </class> <!-- TestScript.TC05VerifyNTBCCLead -->
+    </classes>
+  </test> <!-- Test to VerifyNTBCCLead(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBLoansLeadJordan(failed)">
+    <classes>
+      <class name="TestScript.TC06VerifyNTBLoansLeadJordan">
+        <methods>
+          <include name="NTBLeads"/>
+        </methods>
+      </class> <!-- TestScript.TC06VerifyNTBLoansLeadJordan -->
+    </classes>
+  </test> <!-- Test to VerifyNTBLoansLeadJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyETBCASALeadJordan(failed)">
+    <classes>
+      <class name="TestScript.TC07VerifyETBCASALeadJordan">
+        <methods>
+          <include name="NTBDeposits"/>
+        </methods>
+      </class> <!-- TestScript.TC07VerifyETBCASALeadJordan -->
+    </classes>
+  </test> <!-- Test to VerifyETBCASALeadJordan(failed) -->
+  <test thread-count="5" name="Test to VeridyETBCCLeadJordan(failed)">
+    <classes>
+      <class name="TestScript.TC08VeridyETBCCLeadJordan">
+        <methods>
+          <include name="ETBCC"/>
+        </methods>
+      </class> <!-- TestScript.TC08VeridyETBCCLeadJordan -->
+    </classes>
+  </test> <!-- Test to VeridyETBCCLeadJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyETBDepositsLeadJordan(failed)">
+    <classes>
+      <class name="TestScript.TC09VerifyETBDepositsLeadJordan">
+        <methods>
+          <include name="ETBDeposits"/>
+        </methods>
+      </class> <!-- TestScript.TC09VerifyETBDepositsLeadJordan -->
+    </classes>
+  </test> <!-- Test to VerifyETBDepositsLeadJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyETBHLJordan(failed)">
+    <classes>
+      <class name="TestScript.TC10VerifyETBHLJordan">
+        <methods>
+          <include name="NTBLeads"/>
+        </methods>
+      </class> <!-- TestScript.TC10VerifyETBHLJordan -->
+    </classes>
+  </test> <!-- Test to VerifyETBHLJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyETBBankassuranceLeadJordan(failed)">
+    <classes>
+      <class name="TestScript.TC11VerifyETBBankassuranceLeadJordan">
+        <methods>
+          <include name="ETBLeads"/>
+        </methods>
+      </class> <!-- TestScript.TC11VerifyETBBankassuranceLeadJordan -->
+    </classes>
+  </test> <!-- Test to VerifyETBBankassuranceLeadJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyLeadDedupeCreation(failed)">
+    <classes>
+      <class name="TestScript.TC12VerifyLeadDedupeCreation">
+        <methods>
+          <include name="lead"/>
+        </methods>
+      </class> <!-- TestScript.TC12VerifyLeadDedupeCreation -->
+    </classes>
+  </test> <!-- Test to VerifyLeadDedupeCreation(failed) -->
+  <test thread-count="5" name="Test to VerifyNTBCaseNewJordan(failed)">
+    <classes>
+      <class name="TestScript.TC13VerifyNTBCaseNewJordan">
+        <methods>
+          <include name="Case"/>
+        </methods>
+      </class> <!-- TestScript.TC13VerifyNTBCaseNewJordan -->
+    </classes>
+  </test> <!-- Test to VerifyNTBCaseNewJordan(failed) -->
+  <test thread-count="5" name="Test to VerifyETBCaseJordan(failed)">
+    <classes>
+      <class name="TestScript.TC15VerifyETBCaseJordan">
+        <methods>
+          <include name="Case"/>
+        </methods>
+      </class> <!-- TestScript.TC15VerifyETBCaseJordan -->
+    </classes>
+  </test> <!-- Test to VerifyETBCaseJordan(failed) -->
+</suite> <!-- Failed suite [Suite] -->

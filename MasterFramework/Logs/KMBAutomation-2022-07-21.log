@@ -1,0 +1,33 @@
+2022-07-21 11:29:09 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-21 11:29:09 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-21 11:29:12 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-21 11:29:13 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-21 11:29:13 INFO  SetUp - Browser = Chrome
+2022-07-21 11:29:22 INFO  WebDriverManager - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 11:29:22 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-07-21 11:29:23 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_win32.zip
+2022-07-21 11:29:25 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-07-21 11:29:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 11:29:33 INFO  SetUp - Chrome Browser Launched..
+2022-07-21 11:29:41 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-21 11:29:43 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-21 11:29:46 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-21 11:29:48 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-21 11:30:22 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-21 11:30:24 INFO  CommonMethods - Data Sucessfully entered on  = 90099313
+2022-07-21 11:30:26 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-21 11:30:28 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-21 11:30:29 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-21 11:30:30 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-21 11:30:32 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-21 11:30:34 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-21 11:30:35 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-21 11:30:37 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-21 11:30:39 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-21 11:30:41 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-21 11:30:43 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-21 11:31:08 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-21 11:31:08 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-21 11:31:09 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass

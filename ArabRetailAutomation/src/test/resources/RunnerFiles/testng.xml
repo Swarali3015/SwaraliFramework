@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTest">
+
+	<listeners>
+		<listener class-name="com.crm.listeners.TestListeners" />
+	</listeners>
+ 
+  <!-- Add Test to run -->
+  
+   <test name="Test To Verify CRM Login">
+    <classes>
+      <class name="com.crm.testCases.TC01VerifyCRMLogin"/>
+    </classes>
+  </test> 
+  
+   <test name="Test To Verify JNTBLeadBanca">
+    <classes>
+      <class name="com.crm.testCases.TC02VerifyJNTBLeadBanca"/>
+    </classes>
+  </test>  
+  
+  
+   <test name="Test To Verify JNTBLeadDeposits">
+    <classes>
+      <class name="com.crm.testCases.TC03VerifyJNTBLeadDeposits"/>
+    </classes>
+  </test>
+  
+  
+   <test name="Test To Verify JNTBLeadCASA">
+    <classes>
+      <class name="com.crm.testCases.TC04VerifyJNTBLeadCASA"/>
+    </classes>
+  </test>
+  
+   <test name="Test To Verify JNTBLeadCC">
+    <classes>
+      <class name="com.crm.testCases.TC05VerifyJNTBLeadCC"/>
+    </classes>
+  </test>
+  
+  
+     <test name="Test To Verify JNTBLeadLoan">
+    <classes>
+      <class name="com.crm.testCases.TC06VerifyJNTBLeadLoan"/>
+    </classes>
+  </test>
+  
+  
+       <test name="Test To Verify JETBLeadBanca">
+    <classes>
+      <class name="com.crm.testCases.TC07VerifyJETBLeadBanca"/>
+    </classes>
+  </test>
+  
+  
+   <test name="Test To Verify JETBLeadDeposits">
+    <classes>
+      <class name="com.crm.testCases.TC08VerifyJETBLeadDeposits"/>
+    </classes>
+  </test>
+  
+  
+   <test name="Test To Verify JETBLeadCASA">
+    <classes>
+      <class name="com.crm.testCases.TC09VerifyJETBLeadCASA"/>
+    </classes>
+  </test>
+  
+  
+  <test name="Test To Verify JETBLeadCC">
+    <classes>
+      <class name="com.crm.testCases.TC10VerifyJETBLeadCC"/>
+    </classes>
+  </test>
+  
+  
+    <test name="Test To Verify JETBLeadLoan">
+    <classes>
+      <class name="com.crm.testCases.TC11VerifyJETBLeadLoan"/>
+    </classes>
+  </test>
+  
+  
+      <test name="Test To Verify JLeadDedupe">
+    <classes>
+      <class name="com.crm.testCases.TC12VerifyJLeadDedupe"/>
+    </classes>
+  </test>
+  
+        <test name="Test To Verify JNTBCase">
+    <classes>
+      <class name="com.crm.testCases.TC13VerifyJNTBCase"/>
+    </classes>
+  </test>
+  
+    <test name="Test To Verify JETBCase">
+    <classes>
+      <class name="com.crm.testCases.TC14VerifyJETBCase"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
+  <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

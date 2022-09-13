@@ -1,0 +1,149 @@
+2022-07-13 15:43:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 15:43:45 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 15:43:47 INFO  SetUp - Browser = Chrome
+2022-07-13 15:44:00 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-13 15:44:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-13 15:44:13 INFO  SetUp - Chrome Browser Launched..
+2022-07-13 15:44:16 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-13 15:44:27 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-13 15:44:28 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-13 15:44:30 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-13 15:45:15 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f74573b5e58983bdbb1157798c7bf3fb, findElement {using=xpath, value=//header/div[1]/div[3]/div[2]/a[1]/img[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49399}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49399/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f74573b5e58983bdbb1157798c7bf3fb
+2022-07-13 15:45:27 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f74573b5e58983bdbb1157798c7bf3fb, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49399}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49399/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f74573b5e58983bdbb1157798c7bf3fb
+2022-07-13 15:45:27 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-07-13 15:45:28 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-07-13 15:45:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 15:45:41 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 15:45:42 INFO  SetUp - Browser = Chrome
+2022-07-13 15:45:43 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-13 15:45:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-13 15:45:48 INFO  SetUp - Chrome Browser Launched..
+2022-07-13 15:45:50 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-13 15:45:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-13 15:46:00 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-13 15:46:01 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-13 15:49:19 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='command']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f88701f5cc1974fc4f298d4abbcc547, findElement {using=xpath, value=//input[@name='command']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49592/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f88701f5cc1974fc4f298d4abbcc547
+2022-07-13 15:49:38 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-07-13 15:49:38 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-07-13 15:49:39 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-07-13 15:54:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 15:54:56 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 15:54:58 INFO  SetUp - Browser = Chrome
+2022-07-13 15:54:58 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-13 15:54:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-13 15:55:07 INFO  SetUp - Chrome Browser Launched..
+2022-07-13 15:55:09 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-13 15:55:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-13 15:55:21 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-13 15:55:23 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-13 15:55:46 INFO  LoginPage - Sucessfully logout..
+2022-07-13 15:55:46 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-07-13 15:55:46 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-07-13 15:55:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-07-13 17:42:00 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:42:00 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:42:03 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 17:43:57 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:43:57 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:43:58 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 17:47:00 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:47:00 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:47:01 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 17:49:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:49:24 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:49:25 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 17:55:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:55:29 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:55:30 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 17:57:09 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 17:57:09 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 17:57:10 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 18:00:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 18:00:20 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 18:00:21 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 18:02:35 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 18:02:35 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 18:02:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 18:06:11 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 18:08:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 18:08:53 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-13 18:08:55 INFO  SetUp - Browser = Chrome
+2022-07-13 18:09:01 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-13 18:09:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-13 18:09:18 INFO  SetUp - Chrome Browser Launched..
+2022-07-13 18:09:22 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-13 18:09:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-13 18:09:35 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-13 18:09:36 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-13 18:10:14 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-13 18:10:14 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-13 18:10:14 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-13 18:10:15 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-13 18:17:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-13 18:17:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-13 18:17:38 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-13 18:17:39 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-13 18:17:40 INFO  SetUp - Browser = Chrome
+2022-07-13 18:17:40 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-13 18:17:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-13 18:17:46 INFO  SetUp - Chrome Browser Launched..
+2022-07-13 18:17:50 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-13 18:17:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-13 18:18:01 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-13 18:18:03 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-13 18:19:02 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-13 18:19:02 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-13 18:19:03 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-13 18:19:05 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass

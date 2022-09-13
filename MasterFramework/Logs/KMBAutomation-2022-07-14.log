@@ -1,0 +1,1689 @@
+2022-07-14 09:39:55 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 09:39:55 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 09:39:58 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 09:39:59 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 09:40:00 INFO  SetUp - Browser = Chrome
+2022-07-14 09:40:03 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 09:40:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 09:40:15 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 09:40:36 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 09:40:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 09:40:38 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 09:40:41 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 09:42:22 ERROR CommonMethods - Not able to click on Bancassurance Due to element click intercepted: Element <span class="db" style="border: 4px solid yellow;">...</span> is not clickable at point (1058, 129). Other element would receive the click: <div class="cardLoader" style="position: absolute;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec08665a0afe73be795bc38bb645a9da, clickElement {id=25c5a0cb-8655-40fe-ba22-1e4daf3f33fc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60955/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ec08665a0afe73be795bc38bb645a9da)] -> xpath: //span[contains(text(),'Bancassurance')]]
+Session ID: ec08665a0afe73be795bc38bb645a9da
+2022-07-14 09:42:23 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-autoid='LE_PRODUCT_ctrl']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec08665a0afe73be795bc38bb645a9da, findElement {using=xpath, value=//select[@data-autoid='LE_PRODUCT_ctrl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60955/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec08665a0afe73be795bc38bb645a9da
+2022-07-14 09:42:23 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 09:42:24 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 09:42:25 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 09:45:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 09:45:45 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 09:45:48 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 09:45:48 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 09:45:49 INFO  SetUp - Browser = Chrome
+2022-07-14 09:45:50 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 09:45:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 09:45:59 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 09:46:02 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 09:46:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 09:46:05 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 09:46:07 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 09:46:39 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 09:46:39 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 09:46:40 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 09:46:41 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 09:59:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 09:59:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 09:59:23 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 09:59:23 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 09:59:24 INFO  SetUp - Browser = Chrome
+2022-07-14 09:59:25 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 09:59:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 09:59:28 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 09:59:35 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 09:59:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 09:59:37 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 09:59:40 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:00:02 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:00:02 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:00:03 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:00:04 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:13:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:13:03 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:13:04 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:13:04 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:13:04 INFO  SetUp - Browser = Chrome
+2022-07-14 10:13:05 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:13:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:13:08 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:13:10 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:13:11 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:13:12 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:13:14 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:13:38 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:13:39 ERROR CommonMethods - Data Not Sucessfully entered on  due to :Cannot get a STRING value from a NUMERIC cell
+2022-07-14 10:13:39 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:13:40 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:13:41 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:16:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:16:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:16:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:16:23 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:16:23 INFO  SetUp - Browser = Chrome
+2022-07-14 10:16:24 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:16:24 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:16:27 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:16:30 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:16:31 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:16:32 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:16:34 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:16:57 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:16:59 ERROR CommonMethods - Data Not Sucessfully entered on  due to :Cannot get a STRING value from a NUMERIC cell
+2022-07-14 10:16:59 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:16:59 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:17:00 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:19:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:19:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:19:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:19:37 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:19:37 INFO  SetUp - Browser = Chrome
+2022-07-14 10:19:38 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:19:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:19:41 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:19:43 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:19:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:19:45 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:19:47 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:20:14 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:20:15 ERROR CommonMethods - Data Not Sucessfully entered on  due to :Cannot get a STRING value from a NUMERIC cell
+2022-07-14 10:20:15 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:20:15 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:20:17 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:38:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:38:08 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:38:09 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:38:10 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:38:10 INFO  SetUp - Browser = Chrome
+2022-07-14 10:38:10 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:38:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:38:21 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:38:23 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:38:24 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:38:26 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:38:27 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:38:52 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:38:54 ERROR CommonMethods - Data Not Sucessfully entered on  due to :Cannot get a STRING value from a NUMERIC cell
+2022-07-14 10:38:54 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:38:54 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:38:55 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:41:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:41:29 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:41:30 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:41:30 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:41:30 INFO  SetUp - Browser = Chrome
+2022-07-14 10:41:33 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:41:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:41:40 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:41:44 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:41:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:41:46 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:41:47 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:42:13 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:42:14 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 10:42:14 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:42:14 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:42:15 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 10:55:32 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 10:55:32 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 10:55:34 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 10:55:35 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 10:55:35 INFO  SetUp - Browser = Chrome
+2022-07-14 10:55:36 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 10:55:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 10:55:43 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 10:55:46 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 10:55:46 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 10:55:48 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 10:55:50 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 10:56:17 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 10:56:18 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 10:56:20 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 10:56:20 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 10:56:20 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 10:56:21 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 11:00:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:00:44 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:00:45 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:00:45 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:00:45 INFO  SetUp - Browser = Chrome
+2022-07-14 11:00:48 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:00:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:00:57 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:01:00 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:01:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:01:05 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:01:06 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:01:33 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 11:01:35 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 11:01:36 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 11:01:36 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 11:01:36 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:01:37 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 11:06:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:06:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:06:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:06:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:06:23 INFO  SetUp - Browser = Chrome
+2022-07-14 11:06:23 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:06:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:06:32 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:06:51 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:06:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:06:54 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:06:55 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:07:59 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 11:08:00 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 11:08:02 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 11:08:02 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 11:08:02 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:08:03 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 11:17:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:17:02 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:17:03 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:17:04 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:17:04 INFO  SetUp - Browser = Chrome
+2022-07-14 11:17:04 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:17:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:17:13 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:17:15 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:17:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:17:17 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:17:18 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:17:44 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 11:17:45 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 11:17:47 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 11:17:47 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 11:17:47 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:17:48 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 11:22:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:22:54 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:22:54 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:22:55 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:22:55 INFO  SetUp - Browser = Chrome
+2022-07-14 11:22:55 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:22:55 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:22:59 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:23:00 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:23:01 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:23:42 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [248a08501b8ac86e93937fd3785a9685, findElement {using=xpath, value=//input[@id='TxtName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64879/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 248a08501b8ac86e93937fd3785a9685
+2022-07-14 11:23:54 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [248a08501b8ac86e93937fd3785a9685, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64879/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 248a08501b8ac86e93937fd3785a9685
+2022-07-14 11:23:54 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:23:56 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 11:28:05 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:28:05 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:28:06 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:28:06 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:28:06 INFO  SetUp - Browser = Chrome
+2022-07-14 11:28:07 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:28:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:28:11 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:28:14 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:28:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:28:16 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:28:18 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:28:40 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 11:28:41 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 11:28:43 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 11:28:44 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 11:28:44 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 11:28:44 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:28:45 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 11:41:13 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:41:13 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:41:14 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:41:14 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:41:15 INFO  SetUp - Browser = Chrome
+2022-07-14 11:41:15 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:41:15 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:41:22 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:41:25 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:41:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:41:36 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:41:37 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:42:03 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfbab1f0fb7296f25e8b5426510b995c, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49355/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfbab1f0fb7296f25e8b5426510b995c
+2022-07-14 11:42:42 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 11:42:42 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:42:43 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 11:43:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:43:16 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:43:17 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:43:17 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:43:17 INFO  SetUp - Browser = Chrome
+2022-07-14 11:43:21 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:43:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:43:29 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:43:33 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:43:42 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:43:43 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:43:45 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:45:49 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]' (tried for 70 second(s) with 500 milliseconds interval)
+2022-07-14 11:45:49 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 11:45:49 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:45:50 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 11:48:06 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 11:48:06 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 11:48:07 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 11:48:08 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 11:48:08 INFO  SetUp - Browser = Chrome
+2022-07-14 11:48:08 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 11:48:08 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 11:48:15 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 11:48:18 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 11:48:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 11:48:20 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 11:48:22 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 11:49:11 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 11:49:13 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 11:49:14 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 11:49:15 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 11:49:17 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 11:49:17 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 11:49:17 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 11:49:18 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:07:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:07:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:07:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:07:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:07:22 INFO  SetUp - Browser = Chrome
+2022-07-14 12:07:23 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:07:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:07:33 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:07:37 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:07:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:07:39 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:07:41 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:08:34 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:08:36 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:08:38 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:08:39 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:08:40 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:08:42 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:08:42 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:08:42 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:08:43 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:12:37 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:12:37 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:12:38 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:12:39 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:12:39 INFO  SetUp - Browser = Chrome
+2022-07-14 12:12:39 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:12:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:12:43 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:12:46 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:12:47 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:12:48 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:12:50 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:14:07 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25e2f4d256b1ea185049fe6da8ee97f0, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50692/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25e2f4d256b1ea185049fe6da8ee97f0
+2022-07-14 12:14:19 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25e2f4d256b1ea185049fe6da8ee97f0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50692/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25e2f4d256b1ea185049fe6da8ee97f0
+2022-07-14 12:14:19 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:14:20 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 12:14:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:14:31 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:14:32 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:14:33 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:14:33 INFO  SetUp - Browser = Chrome
+2022-07-14 12:14:34 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:14:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:14:37 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:14:42 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:14:42 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:14:44 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:14:45 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:15:11 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [786e842c534b49f813f199b334d1b5f8, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50807/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 786e842c534b49f813f199b334d1b5f8
+2022-07-14 12:15:32 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 12:15:32 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:15:33 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 12:19:32 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:19:32 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:19:33 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:19:34 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:19:34 INFO  SetUp - Browser = Chrome
+2022-07-14 12:19:34 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:19:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:19:38 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:19:42 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:19:42 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:19:44 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:19:45 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:20:41 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:20:43 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:20:45 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:20:46 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:20:48 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:20:49 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:20:51 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:20:51 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:20:51 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:20:52 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:25:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:25:49 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:25:50 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:25:50 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:25:50 INFO  SetUp - Browser = Chrome
+2022-07-14 12:25:51 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:25:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:25:55 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:25:58 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:25:59 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:26:01 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:26:02 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:27:01 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:27:03 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:27:05 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:27:06 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:27:08 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:27:09 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:27:11 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:27:12 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+Element should have been "select" but was "input"
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: driver.version: unknown
+2022-07-14 12:27:12 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 12:27:12 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:27:13 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 12:27:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:27:56 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:27:57 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:27:57 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:27:57 INFO  SetUp - Browser = Chrome
+2022-07-14 12:27:58 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:27:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:28:05 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:28:09 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:28:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:28:20 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:28:22 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:29:16 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:29:17 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:29:19 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:29:20 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:29:22 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:29:23 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:29:25 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:29:26 ERROR CommonMethods - Not able to click on  Due to element click intercepted: Element <input inputmode="numeric" class="textbox field__item" thousandspacing="3" data-autoid="cust_25_ctrl" type="tel" value="" style="border: 4px solid yellow;"> is not clickable at point (490, 600). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [415f2c06eef5b793561744203c72124e, clickElement {id=3881c29b-2c04-40ec-8537-c4cdad7ecbe2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51402}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51402/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (415f2c06eef5b793561744203c72124e)] -> xpath: //input[@data-autoid='cust_25_ctrl']]
+Session ID: 415f2c06eef5b793561744203c72124e
+2022-07-14 12:29:27 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:29:27 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:29:27 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:29:28 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:31:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:31:17 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:31:18 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:31:18 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:31:18 INFO  SetUp - Browser = Chrome
+2022-07-14 12:31:19 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:31:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:31:27 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:31:29 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:31:39 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:31:40 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:31:41 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:32:22 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:32:23 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:32:25 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:32:27 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:32:28 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:32:30 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:32:31 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:32:32 ERROR CommonMethods - Not able to click on  Due to element click intercepted: Element <input inputmode="numeric" class="textbox field__item" thousandspacing="3" data-autoid="cust_25_ctrl" type="tel" value="" style="border: 4px solid yellow;"> is not clickable at point (490, 600). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b0e3495fa74125efe7a1894fc9a8aee, clickElement {id=4913191d-5aff-4321-9b7d-56fc22224bb8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51576/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b0e3495fa74125efe7a1894fc9a8aee)] -> xpath: //input[@data-autoid='cust_25_ctrl']]
+Session ID: 0b0e3495fa74125efe7a1894fc9a8aee
+2022-07-14 12:32:34 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:32:34 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:32:34 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:32:35 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:33:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:33:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:33:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:33:38 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:33:38 INFO  SetUp - Browser = Chrome
+2022-07-14 12:33:38 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:33:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:33:41 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:33:43 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:33:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:33:45 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:33:47 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:34:11 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:34:12 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:34:14 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:34:16 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:34:17 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:34:18 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:34:20 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:34:21 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:34:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:34:22 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:34:23 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:38:19 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:38:19 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:38:20 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:38:20 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:38:20 INFO  SetUp - Browser = Chrome
+2022-07-14 12:38:21 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:38:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:38:24 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:38:29 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:38:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:38:31 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:38:33 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:38:59 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:39:01 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:39:03 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:39:04 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:39:06 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:39:07 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:39:08 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:39:10 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:39:12 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 12:39:12 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:39:12 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:39:13 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:46:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:46:20 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:46:21 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:46:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:46:22 INFO  SetUp - Browser = Chrome
+2022-07-14 12:46:24 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:46:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:46:31 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:46:34 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:46:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:46:36 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:46:37 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:47:03 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:47:05 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:47:07 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:47:08 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:47:10 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:47:11 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:47:13 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:47:14 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:47:16 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 12:47:18 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 12:47:18 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:47:18 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:47:19 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 12:56:35 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 12:56:35 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 12:56:36 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 12:56:37 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 12:56:37 INFO  SetUp - Browser = Chrome
+2022-07-14 12:56:38 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 12:56:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 12:56:41 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 12:56:44 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 12:56:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 12:56:46 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 12:56:47 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 12:57:12 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 12:57:13 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 12:57:15 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 12:57:16 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 12:57:18 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 12:57:19 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 12:57:21 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 12:57:22 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 12:57:24 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 12:57:26 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 12:57:26 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 12:57:26 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 12:57:27 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:07:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:07:36 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:07:37 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:07:38 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:07:38 INFO  SetUp - Browser = Chrome
+2022-07-14 13:07:39 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:07:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:07:41 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:07:43 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:07:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:07:45 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:07:47 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:08:12 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:08:13 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:08:15 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:08:16 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:08:18 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:08:19 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:08:21 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:08:22 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:08:24 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:08:26 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:08:26 ERROR CommonMethods - Data Not Sucessfully entered on null due to :invalid element state
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db45ed89c828d3abec658af9729f3c14, clearElement {id=38e20522-97fd-494f-8d0f-08ac38a4f3da}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53037/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (db45ed89c828d3abec658af9729f3c14)] -> xpath: //body/div[@id='main']/div[@id='content-side']/div[1]/div[2]/div[2]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[10]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]]
+Session ID: db45ed89c828d3abec658af9729f3c14
+2022-07-14 13:08:26 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:08:26 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:08:27 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:12:07 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:12:07 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:12:08 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:12:08 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:12:09 INFO  SetUp - Browser = Chrome
+2022-07-14 13:12:09 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:12:09 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:12:12 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:12:15 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:12:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:12:17 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:12:19 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:12:45 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:12:46 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:12:48 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:12:50 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:12:51 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:12:52 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:12:54 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:12:55 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:12:57 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:12:59 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:14:09 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+invalid selector: Unable to locate an element with the xpath expression //input[@data-autoid='LE_DISTRICT_ctrl']'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@data-autoid='LE_DISTRICT_ctrl']']' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e93927840fba31e93249150490340f7e, findElement {using=xpath, value=//input[@data-autoid='LE_DISTRICT_ctrl']']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53230/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93927840fba31e93249150490340f7e
+2022-07-14 13:14:10 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 13:14:10 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:14:11 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 13:14:54 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:14:54 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:14:55 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:14:56 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:14:56 INFO  SetUp - Browser = Chrome
+2022-07-14 13:14:56 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:14:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:14:59 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:15:02 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:15:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:15:04 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:15:05 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:15:37 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:15:38 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:15:40 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:15:42 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:15:43 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:15:45 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:15:46 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:15:47 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:15:49 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:15:51 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:15:52 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:15:52 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:15:52 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:15:53 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:19:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:19:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:19:43 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:19:44 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:19:44 INFO  SetUp - Browser = Chrome
+2022-07-14 13:19:45 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:19:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:19:49 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:19:53 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:19:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:19:55 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:19:57 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:20:23 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:20:25 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:20:27 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:20:28 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:20:29 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:20:31 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:20:32 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:20:34 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:20:35 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:20:37 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:20:39 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:20:40 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:20:40 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:20:41 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:27:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:27:48 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:27:49 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:27:49 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:27:49 INFO  SetUp - Browser = Chrome
+2022-07-14 13:27:50 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:27:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:27:57 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:28:16 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:28:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:28:18 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:28:20 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:28:50 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:28:51 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:28:53 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:28:55 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:28:56 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:28:58 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:28:59 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:29:01 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:29:02 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:29:04 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:29:05 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:29:06 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:29:06 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:29:07 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:31:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:31:52 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:31:53 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:31:54 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:31:54 INFO  SetUp - Browser = Chrome
+2022-07-14 13:31:54 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:31:54 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:31:58 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:32:00 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:32:00 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:32:02 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:32:04 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:33:12 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:33:14 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:33:15 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:33:17 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:33:18 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:33:20 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:33:21 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:33:23 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:33:24 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:33:26 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:33:28 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:33:30 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:33:30 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:33:30 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:33:31 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:39:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:39:17 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:39:18 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:39:19 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:39:19 INFO  SetUp - Browser = Chrome
+2022-07-14 13:39:19 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:39:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:39:25 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:39:28 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:39:29 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:39:31 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:39:32 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:39:55 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:39:57 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:39:58 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:40:00 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:40:01 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:40:03 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:40:04 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:40:06 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:40:07 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:40:09 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:40:10 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:40:13 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:40:13 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:40:14 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:40:15 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 13:41:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 13:41:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 13:41:51 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 13:41:51 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 13:41:51 INFO  SetUp - Browser = Chrome
+2022-07-14 13:41:52 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 13:41:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 13:42:00 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 13:42:02 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 13:42:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 13:42:04 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 13:42:06 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 13:42:31 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 13:42:32 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 13:42:34 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 13:42:36 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 13:42:37 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 13:42:39 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 13:42:40 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 13:42:42 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 13:42:43 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 13:42:45 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 13:42:47 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:42:49 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 13:42:50 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 13:42:50 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 13:42:51 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 15:30:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 15:30:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 15:30:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 15:30:42 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 15:30:42 INFO  SetUp - Browser = Chrome
+2022-07-14 15:30:45 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 15:30:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 15:30:55 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 15:30:59 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 15:30:59 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 15:31:01 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 15:31:03 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 15:31:41 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 15:31:42 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 15:31:44 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 15:31:46 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 15:31:47 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 15:31:49 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 15:31:50 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 15:31:52 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 15:31:53 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 15:31:55 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 15:31:56 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:31:59 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:32:01 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:32:01 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 15:32:01 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 15:32:02 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 15:44:35 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 15:44:35 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 15:44:36 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 15:44:36 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 15:44:36 INFO  SetUp - Browser = Chrome
+2022-07-14 15:44:43 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 15:44:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 15:44:51 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 15:44:55 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 15:44:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 15:44:58 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 15:44:59 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 15:45:43 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 15:45:45 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 15:45:46 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 15:45:48 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 15:45:49 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 15:45:51 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 15:45:52 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 15:45:54 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 15:45:55 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 15:45:57 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 15:45:59 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:46:01 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:46:03 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:46:04 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 15:46:04 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 15:46:05 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 15:54:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 15:54:23 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 15:54:24 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 15:54:24 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 15:54:25 INFO  SetUp - Browser = Chrome
+2022-07-14 15:54:25 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 15:54:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 15:54:32 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 15:54:35 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 15:54:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 15:54:37 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 15:54:39 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 15:55:03 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 15:55:05 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 15:55:07 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 15:55:08 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 15:55:09 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 15:55:11 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 15:55:12 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 15:55:14 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 15:55:15 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 15:55:17 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 15:55:19 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:55:21 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:55:23 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 15:55:24 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 15:55:24 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 15:55:25 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 16:12:47 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:12:47 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:12:48 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:12:49 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:12:49 INFO  SetUp - Browser = Chrome
+2022-07-14 16:12:50 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:12:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:13:03 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:13:05 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:13:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:13:07 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:13:08 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:13:35 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:13:36 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:13:38 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 16:13:39 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:13:41 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:13:42 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:13:43 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:13:45 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:13:46 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:13:48 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:13:49 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:13:51 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:13:53 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 16:13:53 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 16:13:54 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 16:28:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:28:04 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:28:11 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:28:14 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:28:14 INFO  SetUp - Browser = Chrome
+2022-07-14 16:28:23 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:28:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:29:45 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:29:48 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:29:49 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:29:50 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:29:52 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:30:19 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:30:21 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:30:22 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 16:30:24 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:30:25 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:30:27 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:30:28 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:30:29 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:30:31 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:30:33 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:30:34 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:34:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:34:45 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:34:47 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:34:48 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:34:48 INFO  SetUp - Browser = Chrome
+2022-07-14 16:34:52 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:34:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:35:05 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:35:08 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:35:09 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:35:10 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:35:11 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:35:38 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:35:39 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:35:41 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 16:35:42 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:35:43 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:35:45 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:35:46 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:35:48 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:35:49 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:35:51 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:35:52 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:35:54 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:35:56 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 16:35:56 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 16:35:57 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 16:39:33 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:39:33 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:39:35 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:39:35 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:39:35 INFO  SetUp - Browser = Chrome
+2022-07-14 16:39:36 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:39:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:39:42 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:39:44 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:39:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:39:46 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:39:48 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:40:11 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:40:13 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:40:14 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 16:40:16 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:40:17 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:40:18 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:40:20 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:40:21 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:40:23 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:40:25 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:40:26 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:40:28 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:40:29 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 16:40:30 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 16:40:31 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 16:42:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:42:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:42:51 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:42:51 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:42:52 INFO  SetUp - Browser = Chrome
+2022-07-14 16:42:52 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:42:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:42:59 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:43:02 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:43:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:43:04 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:43:05 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:43:36 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:43:37 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:43:39 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:43:40 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:43:42 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:43:43 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:43:45 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:43:46 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:43:48 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:43:49 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:43:51 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:43:53 ERROR CommonMethods - Not able to click on  Due to element click intercepted: Element <a title="Search" class="field__item picker-icon" data-autoid="LE_ZIP_CODE_srch">...</a> is not clickable at point (1284, 586). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [831ddc184a7c965e64d1aeb833373d01, clickElement {id=846805c2-885f-4e1f-b7ce-79296cd7b509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (831ddc184a7c965e64d1aeb833373d01)] -> xpath: //a[@data-autoid='LE_ZIP_CODE_srch']]
+Session ID: 831ddc184a7c965e64d1aeb833373d01
+2022-07-14 16:45:04 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[title='Ajloun']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [831ddc184a7c965e64d1aeb833373d01, findElement {using=css selector, value=div[title='Ajloun']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60320}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60320/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 831ddc184a7c965e64d1aeb833373d01
+2022-07-14 16:45:04 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 16:45:04 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 16:45:05 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 16:53:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 16:53:56 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 16:53:57 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 16:53:57 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 16:53:58 INFO  SetUp - Browser = Chrome
+2022-07-14 16:53:58 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 16:53:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 16:54:04 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 16:54:06 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 16:54:07 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 16:54:08 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 16:54:10 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 16:54:33 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 16:54:34 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 16:54:36 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 16:54:37 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 16:54:38 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 16:54:40 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 16:54:41 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 16:54:42 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 16:54:44 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 16:54:45 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:54:47 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 16:54:49 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 16:54:49 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 16:54:50 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:01:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:01:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:01:40 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:01:40 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:01:40 INFO  SetUp - Browser = Chrome
+2022-07-14 17:01:41 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:01:41 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:01:43 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:01:46 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:01:47 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:01:48 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:01:49 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:02:40 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:02:41 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 17:02:43 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:02:44 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:02:46 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:02:47 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:02:48 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:02:50 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:02:52 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:02:53 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:02:55 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:02:56 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 17:02:56 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:02:57 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:05:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:05:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:05:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:05:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:05:23 INFO  SetUp - Browser = Chrome
+2022-07-14 17:05:23 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:05:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:05:26 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:05:50 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:05:59 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:06:00 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:06:02 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:07:27 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:07:29 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 17:07:30 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 17:07:32 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:07:33 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:07:34 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:07:36 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:07:37 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:07:38 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:07:40 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:07:41 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:08:52 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//tbody/tr/td[1]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db3780901d2c84b8ce356efaa31d728e, findElement {using=xpath, value=//tbody/tr/td[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61181/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db3780901d2c84b8ce356efaa31d728e
+2022-07-14 17:08:52 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 17:08:52 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:08:53 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 17:09:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:09:27 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:09:28 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:09:28 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:09:28 INFO  SetUp - Browser = Chrome
+2022-07-14 17:09:29 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:09:29 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:09:36 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:09:38 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:09:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:09:40 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:09:41 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:10:37 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:10:38 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 17:10:40 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 17:10:41 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:10:42 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:10:44 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:10:45 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:10:46 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:10:48 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:10:50 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:10:51 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:10:53 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:10:55 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 17:10:55 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:10:56 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:19:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:19:31 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:19:32 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:19:32 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:19:32 INFO  SetUp - Browser = Chrome
+2022-07-14 17:19:33 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:19:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:19:39 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:19:56 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:19:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:19:57 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:19:59 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:21:27 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:21:28 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 17:21:30 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 17:21:31 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:21:32 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:21:34 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:21:35 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:21:36 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:21:38 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:21:40 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:21:41 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:21:43 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:21:45 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:21:46 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 17:21:46 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:21:47 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:22:25 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:22:25 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:22:26 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:22:26 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:22:26 INFO  SetUp - Browser = Chrome
+2022-07-14 17:22:27 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:22:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:22:34 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:22:36 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:22:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:22:38 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:22:40 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:23:30 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:23:32 INFO  CommonMethods - Data Sucessfully entered on  = 9663399
+2022-07-14 17:23:33 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 17:23:34 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:23:36 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:23:37 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:23:38 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:23:40 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:23:41 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:23:43 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:23:44 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:23:46 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:23:48 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:23:49 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 17:23:49 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:23:50 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:24:24 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:24:24 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:24:25 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:24:26 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:24:26 INFO  SetUp - Browser = Chrome
+2022-07-14 17:24:26 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:24:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:24:35 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:24:38 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:24:39 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:24:40 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:24:42 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:29:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:29:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:29:51 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:29:52 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:29:52 INFO  SetUp - Browser = Chrome
+2022-07-14 17:29:52 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:29:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:30:00 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:30:09 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:30:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:30:11 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:30:12 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:31:33 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:31:34 INFO  CommonMethods - Data Sucessfully entered on  = 999663399
+2022-07-14 17:31:36 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 17:31:37 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 17:31:39 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 17:31:40 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 17:31:41 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 17:31:43 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 17:31:44 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 17:31:46 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 17:31:47 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:31:49 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:31:51 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 17:31:52 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 17:31:52 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:31:53 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 17:44:35 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:44:35 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:44:36 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:44:36 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:44:36 INFO  SetUp - Browser = Chrome
+2022-07-14 17:44:44 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:44:44 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:44:51 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:44:54 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:44:55 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:44:56 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:44:57 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:45:46 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:45:48 INFO  CommonMethods - Data Sucessfully entered on  = 999663399
+2022-07-14 17:46:58 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+invalid selector: Unable to locate an element with the xpath expression //input[@type='tel'])[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='tel'])[1]' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d750b7dd347ef8799415d33c9eaa053, findElement {using=xpath, value=//input[@type='tel'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63168/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d750b7dd347ef8799415d33c9eaa053
+2022-07-14 17:46:58 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 17:46:58 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:46:59 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 17:47:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:47:48 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:47:49 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:47:49 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:47:50 INFO  SetUp - Browser = Chrome
+2022-07-14 17:47:50 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:47:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:47:53 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:47:57 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:47:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:47:58 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:48:00 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:48:52 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 17:48:54 INFO  CommonMethods - Data Sucessfully entered on  = 999663399
+2022-07-14 17:58:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 17:58:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 17:58:41 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 17:58:41 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 17:58:41 INFO  SetUp - Browser = Chrome
+2022-07-14 17:58:42 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 17:58:42 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 17:58:48 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 17:58:52 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 17:58:52 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 17:58:54 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 17:58:55 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 17:59:20 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08a71a8ae1bcc54ed4b0ebdad4ffb448, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63943/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a71a8ae1bcc54ed4b0ebdad4ffb448
+2022-07-14 17:59:41 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 17:59:41 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 17:59:42 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 18:00:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:00:08 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:00:09 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:00:10 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:00:10 INFO  SetUp - Browser = Chrome
+2022-07-14 18:00:10 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:00:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:00:14 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:00:18 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:00:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:00:20 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:00:22 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:01:14 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 18:01:15 INFO  CommonMethods - Data Sucessfully entered on  = 9969933
+2022-07-14 18:01:17 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 18:01:18 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 18:01:20 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 18:01:21 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 18:01:22 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 18:01:24 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 18:01:25 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 18:01:27 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 18:01:28 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:01:30 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:01:32 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:01:33 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 18:01:33 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:01:34 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 18:05:26 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:05:26 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:05:27 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:05:27 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:05:27 INFO  SetUp - Browser = Chrome
+2022-07-14 18:05:28 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:05:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:05:31 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:05:34 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:05:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:05:35 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:05:37 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:06:01 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2dd7e3f33a124502719fa9afaf5c167a, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64230/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2dd7e3f33a124502719fa9afaf5c167a
+2022-07-14 18:06:23 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 18:06:23 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:06:24 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 18:07:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:07:08 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:07:09 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:07:10 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:07:10 INFO  SetUp - Browser = Chrome
+2022-07-14 18:07:11 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:07:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:07:14 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:07:17 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:07:18 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:07:19 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:07:21 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:07:45 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d38012244d8663094f655ebc9bf988f, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64324/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d38012244d8663094f655ebc9bf988f
+2022-07-14 18:08:10 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 18:08:10 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:08:11 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 18:08:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:08:58 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:08:59 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:09:00 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:09:00 INFO  SetUp - Browser = Chrome
+2022-07-14 18:09:00 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:09:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:09:04 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:09:07 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:09:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:09:09 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:09:11 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:10:00 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 18:10:02 INFO  CommonMethods - Data Sucessfully entered on  = 9969933
+2022-07-14 18:10:03 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 18:10:04 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 18:10:06 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 18:10:07 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 18:10:08 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 18:10:10 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 18:10:11 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 18:10:13 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 18:10:14 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:10:16 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:10:18 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:10:19 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 18:10:19 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:10:20 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-07-14 18:10:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:10:58 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:10:59 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:10:59 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:10:59 INFO  SetUp - Browser = Chrome
+2022-07-14 18:11:00 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:11:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:11:03 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:11:07 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:11:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:11:09 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:11:10 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:11:36 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85fcc251dde0ef47e3d7c00a7d7a269f, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64511/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85fcc251dde0ef47e3d7c00a7d7a269f
+2022-07-14 18:11:57 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 18:11:57 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:11:58 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 18:12:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:12:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:12:22 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:12:22 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:12:23 INFO  SetUp - Browser = Chrome
+2022-07-14 18:12:23 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:12:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:12:28 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:12:31 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:12:31 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:12:33 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:12:34 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:13:01 ERROR SetUp - NTBBankassuranceJordan Get Failed due to 
+unexpected alert open: {Alert text : There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+}
+  (Session info: chrome=103.0.5060.114): There is an error with the AJAX request.
+HTTP Error (0 error undefined).
+
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'SWARALIN', ip: '192.168.1.16', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60aab49d5b6ec83d0d36ae3587d77073, findElement {using=xpath, value=//body/div[@id='main']/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/a[1]/i[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SWARAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64584/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60aab49d5b6ec83d0d36ae3587d77073
+2022-07-14 18:13:23 INFO  ScreenShot - ScreenShot captured NTBBankassuranceJordan || Status :Fail
+2022-07-14 18:13:23 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:13:24 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-07-14 18:13:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Swarali Narvekar\eclipse-workspace\MasterFramework-master\MasterFramework-master\MasterFramework\testng.xml
+
+2022-07-14 18:13:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-07-14 18:13:51 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-07-14 18:13:51 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Started
+2022-07-14 18:13:51 INFO  SetUp - Browser = Chrome
+2022-07-14 18:13:52 INFO  WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-14 18:13:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Swarali Narvekar\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-14 18:13:56 INFO  SetUp - Chrome Browser Launched..
+2022-07-14 18:14:00 INFO  SetUp - URL : https://arabretail.crmnext.com/g7/app/login/login
+2022-07-14 18:14:00 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-07-14 18:14:02 INFO  CommonMethods - Data Sucessfully entered on User Name = BM
+2022-07-14 18:14:03 INFO  CommonMethods - Data Sucessfully entered on Password = acid_qa
+2022-07-14 18:14:53 INFO  CommonMethods - Arabi Protect - Critical Illness 12 Diseases : Data Sucessfully Selected from dropdown 
+2022-07-14 18:14:55 INFO  CommonMethods - Data Sucessfully entered on  = 99699313
+2022-07-14 18:14:56 INFO  CommonMethods - Data Sucessfully entered on  = 123
+2022-07-14 18:14:57 INFO  CommonMethods - MRS. : Data Sucessfully Selected from dropdown 
+2022-07-14 18:14:59 INFO  CommonMethods - Data Sucessfully entered on Full Name = Iga
+2022-07-14 18:15:00 INFO  CommonMethods - Hot : Data Sucessfully Selected from dropdown 
+2022-07-14 18:15:01 INFO  CommonMethods - Social Media : Data Sucessfully Selected from dropdown 
+2022-07-14 18:15:03 INFO  CommonMethods - Data Sucessfully entered on  = 456
+2022-07-14 18:15:04 INFO  CommonMethods - Data Sucessfully entered on  = 789
+2022-07-14 18:15:06 INFO  CommonMethods - Data Sucessfully entered on  = Loving Automation
+2022-07-14 18:15:07 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:15:09 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:15:11 INFO  CommonMethods - Data Sucessfully entered on  = Ajloun
+2022-07-14 18:15:12 INFO  SetUp - Test Case_NTBBankassuranceJordan_Successfully Passed
+2022-07-14 18:15:12 INFO  CommonMethods - Row num for TestScenario = NTBBankassuranceJordan is = 2
+2022-07-14 18:15:13 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
